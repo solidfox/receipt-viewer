@@ -4,7 +4,7 @@
   "description": "An app to process documents, extract relevant information, and present it to the user through an intuitive interface.",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "electron-dev": "concurrently \"npm run start\" \"wait-on http://localhost:3000 && electron .\""
   },
